@@ -1,9 +1,9 @@
-# Laravel 10 Filament 貼文顯示更多／更少
+# Laravel 11 Filament 貼文顯示更多／更少
 
 Filament 貼文顯示更多／更少採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，如果字數太多就只會顯示前面的部分內容，其他隱藏內容必須點擊顯示更多才會顯示出來。
 
 ## 使用方式
-- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl，並重啟服務器。
+- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl 和 zip，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -35,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/fgL8LsJ.gif)
+![](https://i.imgur.com/0uVnTou.gif)
 > 讓看不到的隱藏內容可以顯示出來

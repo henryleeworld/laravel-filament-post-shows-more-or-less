@@ -9,10 +9,10 @@ use Illuminate\Database\Seeder;
 class PostSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the database seeders.
      */
     public function run(): void
     {
-        Post::factory(3)->create();
+        Post::factory()->count(3)->create();
     }
 }
