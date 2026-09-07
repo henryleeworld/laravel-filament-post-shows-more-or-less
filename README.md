@@ -1,4 +1,4 @@
-# Laravel 11 Filament 貼文顯示更多／更少
+# Laravel 12 Filament 貼文顯示更多／更少
 
 Filament 貼文顯示更多／更少採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，如果字數太多就只會顯示前面的部分內容，其他隱藏內容必須點擊顯示更多才會顯示出來。
 
@@ -21,19 +21,11 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
-- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
-```sh
-$ npm install
-```
-- 執行正式環境版本化資源管道並編譯。
-```sh
-$ npm run build
-```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/admin/login` 來進行登入，預設的電子郵件和密碼分別為 __admin@admin.com__ 和 __password__ 。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/0uVnTou.gif)
+![](https://i.imgur.com/pxJfP6q.gif)
 > 讓看不到的隱藏內容可以顯示出來
